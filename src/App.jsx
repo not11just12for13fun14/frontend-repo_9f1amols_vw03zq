@@ -6,12 +6,12 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <div className="min-h-screen bg-white text-emerald-900">
+    <div className="min-h-screen bg-white text-stone-900">
       <header className="fixed inset-x-0 top-0 z-50 mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
-        <a href="#top" className="font-semibold text-emerald-900">Rural House</a>
-        <nav className="hidden sm:flex items-center gap-6 text-sm text-emerald-800/80">
-          <a href="#gallery" className="hover:text-emerald-900">Photos</a>
-          <a href="#contact" className="hover:text-emerald-900">Contact</a>
+        <a href="#top" className="font-semibold text-stone-900">Gruntth</a>
+        <nav className="hidden sm:flex items-center gap-6 text-sm text-stone-700/80">
+          <a href="#gallery" className="hover:text-stone-900">Photos</a>
+          <a href="#contact" className="hover:text-stone-900">Contact</a>
         </nav>
       </header>
 
@@ -22,8 +22,8 @@ function App() {
         <Contact />
       </main>
 
-      <footer className="border-t border-emerald-100 py-10 text-center text-sm text-emerald-700">
-        © {new Date().getFullYear()} Rural House • Made with love on the farm
+      <footer className="border-t border-stone-200 py-10 text-center text-sm text-stone-700">
+        © {new Date().getFullYear()} Gruntth • Made with love on the farm
       </footer>
     </div>
   )

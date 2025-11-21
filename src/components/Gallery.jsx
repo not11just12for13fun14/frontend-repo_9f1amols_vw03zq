@@ -13,13 +13,13 @@ const Gallery = () => {
   return (
     <section id="gallery" className="mx-auto max-w-6xl px-6 py-20">
       <div className="mb-10 text-center">
-        <h2 className="text-3xl sm:text-4xl font-semibold text-emerald-900">A glimpse of the farm</h2>
-        <p className="mt-2 text-emerald-800/70">Warm textures, open skies, and the little details we love.</p>
+        <h2 className="text-3xl sm:text-4xl font-semibold text-stone-900">A glimpse of the farm</h2>
+        <p className="mt-2 text-stone-700/80">Warm textures, open skies, and the little details we love.</p>
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
         {images.map((src, idx) => (
-          <div key={idx} className="group relative aspect-[4/3] overflow-hidden rounded-xl bg-emerald-100">
+          <div key={idx} className="group relative aspect-[4/3] overflow-hidden rounded-xl bg-stone-100">
             <img
               src={src}
               alt="Farm scene"
